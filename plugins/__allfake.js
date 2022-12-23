@@ -41,7 +41,7 @@ handler.all = async function (m) {
 					body: wm,
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(img)).buffer(),
-					//sourceUrl: 'https://wa.me',
+					sourceUrl: 'https://wa.me/6285713041886',
 				}
 			}
 		}
